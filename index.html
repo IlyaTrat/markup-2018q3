@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
   <link rel="stylesheet" href="https://use.typekit.net/bqi1vko.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  <link rel="stylesheet" href="./resources/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div class="body-div">
@@ -40,6 +41,7 @@
         <input type="text" class="domain-name" name="domain-name" placeholder="What do you want?">
         <div class="vl-after"></div>
         <input type="text" class="main-domain" list="main-domain" placeholder=".com">
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
         <datalist id="main-domain">
           <option value=".com">.com</option>
           <option value=".net">.net</option>
@@ -48,7 +50,7 @@
       </form>
       <table class="table">
         <tr class="row-1">
-          <td class="fix">.DOM</td>
+          <td class="fix">.COM</td>
           <td>1 Year</td>
           <td>$9.00 USD</td>
           <td>Transfer Price No</td>
@@ -62,11 +64,230 @@
       </table>
     </div>
     <div class="packages">
-      <div class="basic"></div>
-      <div class="normal"></div>
-      <div class="big"></div>
-      <div class="biggest"></div>
+      <div class="packages-container">
+        <div class="basic tab">
+          <div class="top">
+              <i class="fas fa-anchor"></i>
+            <p>BASIC PACKAGE</p>
+          </div>
+          <div class="info">
+            <p>Disk Space (GB) <span>50</span></p>
+            <p>Subdomains <span>50</span></p>
+            <p>Transfer (GB) <span>50</span></p>
+            <p>Data bases <span>1</span></p>
+            <p>Dashboards <span>1</span></p>
+            <p>Control Panel & FTP</p>
+            <p>Free Support</p>            
+          </div>
+          <div class="botom">
+            <p><span>$</span><span>15</span>/Mo</p>
+            <button>SELECT PLAN</button>
+          </div>
+        </div>
+        <div class="normal tab">
+            <div class="top">
+                <i class="fas fa-star-half-alt"></i>
+              <p>NORMAL PACKAGE</p>
+            </div>
+            <div class="info">
+              <p>Disk Space (GB) <span>100</span></p>
+              <p>Subdomains <span>100</span></p>
+              <p>Transfer (GB) <span>100</span></p>
+              <p>Data bases <span>2</span></p>
+              <p>Dashboards <span>2</span></p>
+              <p>Control Panel & FTP</p>
+              <p>Free Support</p>              
+            </div>
+            <div class="botom">
+              <p><span>$</span><span>30</span>/Mo</p>
+              <button>SELECT PLAN</button>
+            </div>
+        </div>
+        <div class="big tab">
+            <div class="top">
+                <i class="fas fa-star"></i>
+              <p>BIG PACKAGE</p>
+            </div>
+            <div class="info">
+              <p>Disk Space (GB) <span>150</span></p>
+              <p>Subdomains <span>150</span></p>
+              <p>Transfer (GB) <span>150</span></p>
+              <p>Data bases <span>4</span></p>
+              <p>Dashboards <span>4</span></p>
+              <p>Control Panel & FTP</p>
+              <p>Free Support</p>             
+            </div>
+            <div class="botom">
+              <p><span>$</span><span>40</span>/Mo</p>
+              <button>SELECT PLAN</button>
+            </div>
+        </div>
+        <div class="biggest tab">
+            <div class="top">
+                <i class="far fa-gem"></i>
+              <p>BIGGEST PACKAGE</p>
+            </div>
+            <div class="info">
+              <p>Disk Space (GB) <span>250</span></p>
+              <p>Subdomains <span>250</span></p>
+              <p>Transfer (GB) <span>250</span></p>
+              <p>Data bases <span>6</span></p>
+              <p>Dashboards <span>6</span></p>
+              <p>Control Panel & FTP</p>
+              <p>Free Support</p>
+            </div>
+            <div class="botom">
+              <p><span>$</span><span>70</span>/Mo</p>
+              <button>SELECT PLAN</button>
+            </div>
+        </div>        
+      </div>
     </div>
+    <div class="about-us">
+      <div class="description">
+        <h2><span>About</span> Us</h2>
+        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+          Praesent feugiat eget diam sit amet molestie.Curabitur. <br>
+          ut ipsum bibendum tortor lacinia fermentum nec joeıa. <br>
+          Mauris at augue libero. Fusce posuere, sapien nec poır. <br>
+          Uaee augsuada sed mauris in tincidunt...</P>
+      </div>
+      <div class="people">
+        <div class="jonny">
+          <img src="./resources/jonny-img.png" alt="jonny">
+          <p class="name">Jonny Doe</p>
+          <p class="role">Designer</p>
+          <div class="links">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+        <div class="john">
+          <img src="./resources/john-img.png" alt="john">
+          <p class="name">John Doe</p>
+          <p class="role">Designer</p>
+          <div class="links">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+        <div class="johnathan">
+          <img src="./resources/johnathan-img.png" alt="johnathan">
+          <p class="name">Johnathan Doe</p>
+          <p class="role">Designer</p>
+          <div class="links">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="comments">
+      <p class="comment-body">“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui
+      <span>interdum dolor pulvinar vitae.”</span></p>
+      <p class="author">John Doe<span class="separator">|</span></p>
+      <div class="buttons">
+        <div onclick="currentDiv(1)"></div>
+        <div onclick="currentDiv(2)"></div>
+        <div onclick="currentDiv(3)"></div>
+      </div>
+    </div>
+    <div class="functions">
+      <div class="feature">
+        <div class="circle">
+          <i class="fa fa-bolt" aria-hidden="true"></i>
+        </div>
+        <p class="feat-name">Fast Servers</p>
+        <p class="feat-desc">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+      </div>
+      <div class="feature">
+        <div class="circle">
+          <i class="fa fa-cloud" aria-hidden="true"></i>
+        </div>
+        <p class="feat-name">Cloud Servers</p>
+        <p class="feat-desc">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+      </div>
+      <div class="feature">
+        <div class="circle">
+          <i class="fa fa-arrows" aria-hidden="true"></i>
+        </div>
+        <p class="feat-name">Domain Transfer</p>
+        <p class="feat-desc">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+      </div>
+      <div class="feature">
+        <div class="circle">
+          <i class="fa fa-comments" aria-hidden="true"></i>
+        </div>
+        <p class="feat-name">Live Support</p>
+        <p class="feat-desc">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+      </div>
+    </div>
+    <footer>
+      <img class="logo" src="resources/header-logo-img.png">
+      <ul class="nav">
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#policy">POLICY</a></li>
+        <li><a href="#blog">BLOG</a></li>          
+        <li><a href="#about-us">ABOUT US</a></li>
+        <li><a href="#home">HOME</a></li>
+      </ul>
+      <hr>
+      <div class="area-container">
+        <div class="area-1">
+          <p>Lorem ipsum dolor sit amet, consecteteeseurı<br>
+            adipiscing elit. Donec mollis commodoeesene<br>
+            que, non commodo risus volutpat vel.
+          </p>
+          <p>Design by <span>Mert Can Eyriyer.</span></p>
+        </div>
+        <div class="area-2">
+          <ul>
+            <li>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <span>Support</span>
+            </li>
+            <li>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <span>Account</span>
+            </li>
+            <li>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <span>Product Catalog</span>
+            </li>
+            <li>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <span>Shortcodes</span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <span>Site Map</span>
+            </li>
+            <li>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <span>Whois Search</span>
+            </li>
+            <li>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <span>Web Mail</span>
+            </li>
+            <li>
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+              <span>Find Domain</span>
+            </li>
+          </ul>
+        </div>
+        <div class="area-3">
+          <a href="tel://000000000000"><i class="fa fa-phone" aria-hidden="true"></i>0000-0000-0000</a>
+          <a href="mailto:informationteam@ghosthost.com"><i class="fa fa-envelope" aria-hidden="true"></i>informationteam@ghosthost.com</a>
+          <p>Lorem Ipsum Street, Lorem Avenue, Lorem Ipsum </p>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
