@@ -195,20 +195,29 @@ header .login {
 }
 
 .domain .www {
+  position: relative;
+  top: 14px;
+  left: 16px;
   width: 37px;
-  padding: 15px 16px 14px;
+  padding: 0px;
   font-weight: 300;
 }
 
 .domain .domain-name {
+  position: relative;
+  top: 14px;
+  left: 45px;
   width: 701px;
-  padding: 15px 13px 14px;
+  padding: 0px;
   font-weight: 600;
 }
 
 .domain .main-domain {
+  position: relative;
+  top: 14px;
+  left: 72px;
   width: 59px;
-  padding: 15px 12px 14px 12px;;
+  padding: 0px;
   font-weight: 200;
 }
 
@@ -315,9 +324,10 @@ div.vl-after {
   position: relative;
   top: 100px;
   left: 200px;
-  width: 1198px;
+  width: 1205px;
   height: 566px;
   display: inline-block;
+  overflow: hidden;
 }
 
 .packages-container .tab {
@@ -891,14 +901,16 @@ footer .area-container {
   display: inline-block;
   box-sizing: border-box;
   top: 110px;
-  left: 200px;
-  width: 1200px;
+  left: 0px;
+  width: 1600px;
   height: 150px;
+  overflow: hidden;
 }
 
 footer .area-container .area-1 {
   position: relative;
   top: 0px;
+  left: 200px;
   display: inline-block;
   box-sizing: border-box;
   width: 378px;
@@ -929,6 +941,7 @@ footer .area-container .area-1 p:last-child span {
 footer .area-container .area-2 {
   position: relative;
   top: -6px;
+  left: 200px;
   display: inline-block;
   box-sizing: border-box;
   width: 495px;
@@ -942,18 +955,20 @@ footer .area-container .area-2 {
 footer .area-container .area-2 ul {
   position: relative;
   display: inline-block;
+  margin: 0px;
+  padding: 0px;
   line-height: 29px;
   list-style: none;
 }
 
 footer .area-container .area-2 ul:first-child {
   top: 3px;
-  left: 64px;
+  left: 104px;
 }
 
 footer .area-container .area-2 ul:last-child {
   top: 3px;
-  left: 92px;
+  left: 172px;
 }
 
 footer .area-container .area-2 ul li span {
@@ -971,6 +986,7 @@ footer .area-container .area-3 {
   display: inline-block;
   box-sizing: border-box;
   top: -6px;
+  left: 200px;
   width: 319px;
   height: 150px;
   padding-left: 82px;
